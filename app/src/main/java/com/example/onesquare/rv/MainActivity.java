@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);*/
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
         mAdapter = new MoviesAdapter(movieList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
